@@ -22,7 +22,7 @@ app.get('/:id', (req, res) => {
                nature = moment.unix(unix).format("MMMM DD, YYYY"); 
            }
 
-   res.json({ "unix": unix, " natural": nature})
+   res.json({ "unix ": unix, "natural ": nature})
 });
 
 app.listen(process.env.PORT || 8000, () => {
